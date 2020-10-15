@@ -1,0 +1,36 @@
+.titulo-principal {
+  text-align: center;
+}
+
+.cor {
+  display: inline-block;
+}
+
+span.cor::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  background-color: black;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.cor.marrom::before {
+  background-color: brown;
+}
+
+.cor.preto::before {
+  background-color: black;
+}
+
+.cor.vermelho::before {
+  background-color: red;
+}
+
+.resultado {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 3rem;
+}
